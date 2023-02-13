@@ -11,7 +11,6 @@ const genLength = document.getElementById('gen-length');
 const genVolume = document.getElementById('gen-volume');
 const genMass = document.getElementById('gen-mass');
 
-//let num = 0 
 
 btn.addEventListener('click', () => {
     num = inputEl.value 

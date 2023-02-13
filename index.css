@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    
+    margin: 0;    
 }
 
 @font-face {
@@ -10,8 +9,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
     width: 550px;
     height: 729px;
     margin: 15px auto;
@@ -87,7 +85,6 @@ h1{
 }
 
 .group {
-
     width: 500px;
     height: 108.57px;
     margin: auto;  
