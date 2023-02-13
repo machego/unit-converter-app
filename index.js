@@ -22,19 +22,19 @@ btn.addEventListener('click', () => {
     inputEl.value = ""
 })
 
-function lengthGen() {
+const lengthGen = () => {
     let meters = ((inputEl.value) * 0.3048)
     let feet = ((inputEl.value) * 3.281)
     genLength.innerHTML = `${inputEl.value} meters = ${feet} feet | ${inputEl.value} feet = ${meters} meters`;
 }
 
-function volumeGen() {
+const volumeGen = () => {
     let liters = ((inputEl.value) * 3.785)
     let gallons = ((inputEl.value) * 0.264)
     genVolume.innerHTML = `${inputEl.value} liters = ${gallons} gallons | ${inputEl.value} gallons = ${liters} liters`;
 }
 
-function massGen() {
+const massGen = () => {
     let kilos = ((inputEl.value) * 0.454)
     let pounds = ((inputEl.value) * 2.204)
     genMass.innerHTML = `${inputEl.value} kilos = ${pounds} pounds | ${inputEl.value} gallons = ${kilos} kilos`;
